@@ -1,0 +1,32 @@
+{
+  "downloaded_at_utc": "2026-10-22T19:16:53.604516+00:00",
+  "requested_start": "2021-09-01",
+  "end_exclusive": "2026-10-01",
+  "method": "Yahoo Finance daily Adj Close; last trading observation of each completed month; no filling",
+  "funds": [
+    {
+      "ticker": "BIL",
+      "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "role": "Cash and reserve",
+      "source": "https://finance.yahoo.com/quote/BIL/history/"
+    },
+    {
+      "ticker": "IEF",
+      "name": "iShares 7-10 Year Treasury Bond ETF",
+      "role": "Government bonds",
+      "source": "https://finance.yahoo.com/quote/IEF/history/"
+    },
+    {
+      "ticker": "LQD",
+      "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+      "role": "Investment-grade fixed income",
+      "source": "https://finance.yahoo.com/quote/LQD/history/"
+    },
+    {
+      "ticker": "VT",
+      "name": "Vanguard Total World Stock ETF",
+      "role": "Broad global equity",
+      "source": "https://finance.yahoo.com/quote/VT/history/"
+    }
+  ]
+}

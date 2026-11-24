@@ -1,0 +1,9 @@
+# Signal data card — DGS10
+
+**Source and units.** Federal Reserve Board H.15, 10-year Treasury constant-maturity yield, daily percentage points per annum. The frozen ALFRED files are under [data/lab17](../data/lab17). See the [FRED series definition](https://fred.stlouisfed.org/series/DGS10) and [ALFRED vintage history](https://alfred.stlouisfed.org/series?seid=DGS10).
+
+**Decision and cutoff.** Replay on October 6, 2026 using the completed October 5 vintage. Use the latest finite observation dated on or before September 30. The signal uses September 30 at 5.29%, excludes the October 1 and 2 observations even though they are present in the selected file, and ignores later vintages when forming the signal. The September 30 vintage ends September 29 at 5.26%, which illustrates the publication lag.
+
+**Rule and action.** A yield at or above 5.00% calls for committee review of IEF and LQD duration, portfolio rate sensitivity and estimate stability before issuing any rebalance instruction. The threshold is an explicit review assumption, with no claim of predictive performance. For this replay the signal calls for review. A missing file, unusable values, or a latest observation more than seven calendar days before cutoff stops the review workflow. Blank and dot-marked rows are excluded without filling.
+
+**Lineage.** October 5 archive SHA-256 `e5167c63653d2df768caa04a892ee0ca92150fd59a11ce07a35befd34f27d523`. The later October 29 vintage also reports 5.29% for September 30. This comparison was made after selecting the signal and found no revision in that observation. The replay dates govern the signal only. The price file was captured October 22, so the portfolio comparison is a retrospective exercise and cannot substantiate an October 6 live allocation. Retain frozen inputs and record changes when refreshing the signal.
