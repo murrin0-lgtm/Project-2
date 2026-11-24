@@ -1,0 +1,78 @@
+VIDEO 2 — CODE WALKTHROUGH
+
+Read the SAY blocks aloud. Use SHOW and DO as screen cues. Allow about
+two to three minutes of narration plus screen changes. Check the assignment cap.
+
+BEFORE RECORDING
+
+Open the local project in your editor. Open data/prices.csv and the Python
+files named below. Run the verification suite ahead of time in the environment
+you use for the app, and leave its final PASS lines visible in the terminal:
+
+    py -3.11 python/verify_project.py
+
+Run from the project two directory. If Streamlit was installed in a virtual
+environment, use that environment's Python. Rehearse the file switches.
+Read the ownership statement only after reviewing the analysis and decision.
+
+1. OPENING
+
+SHOW — Open python/app.py and keep the project file tree visible.
+
+SAY
+“This is my Project Two code walkthrough. I used OpenAI Codex to help
+implement the app and write verification checks. I reviewed the analysis and
+take responsibility for the decision. This project is for education and does
+not constitute investment advice.”
+
+2. FROM PRICES TO ESTIMATES
+
+SHOW — Open data/prices.csv. Point to the date and four ticker columns.
+Switch to python/portfolio.py and search for def estimate_from_csv.
+Scroll to the line starting with returns = and the estimates below it.
+
+SAY
+“The application starts with monthly adjusted closes for BIL, IEF, LQD, and
+VT. The parser checks that months are consecutive and prices are positive.
+Each monthly return is the current price divided by the previous price,
+minus one. The function annualizes the average returns and sample
+volatilities and calculates the correlations used in the covariance matrix.”
+
+3. FROM ESTIMATES TO WEIGHTS AND VERDICTS
+
+SHOW — Open python/decision.py and find def evaluate. Point to the target,
+net, and rules lines, then to the candidate loop and the update to best.
+
+SAY
+“The decision function adds three percentage points to planning CPI to get
+the net return hurdle. It subtracts the annual cost from gross return
+and checks each candidate for full investment, long-only weights, the fund
+cap, five-day liquidity, volatility, and net return. It searches in five
+percentage point increments and picks the lowest-volatility mix that passes
+every rule. It also tracks the highest net return among mixes that pass
+the other rules. That number helps explain a stop.”
+
+SHOW — Point to the returned portfolios in decision.py. Switch to the
+running app and show the two tables under “Portfolio comparison.”
+
+SAY
+“The app shows the result alongside equal weight, inverse volatility, and
+the sixty-forty benchmark. The first table shows the weights and estimates.
+The second shows the pass or fail result for each rule.”
+
+4. STRESSES, SIGNAL, AND CHECKS
+
+SHOW — Scroll to “Required stress runs” and “Archived interest-rate
+signal.” Then switch to the terminal with your verification output.
+
+SAY
+“The same decision function runs the required stresses for the equity
+estimate, lookback window, costs, constraints, and liquidity. The archived
+rate reading flags a duration review. I used the verification suite to
+check the source prices, known portfolio results, and the app’s behavior
+when the window changes or VT becomes unavailable.”
+
+AFTER RECORDING
+
+Add the YouTube link and corrected timestamped text to
+video-2-code-walkthrough-transcript.md.

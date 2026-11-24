@@ -1,0 +1,83 @@
+VIDEO 3 — INVESTMENT COMMITTEE PRESENTATION
+
+Read the SAY blocks aloud. Use SHOW and DO as screen cues. Allow about
+two to three minutes of narration plus screen changes. Check the assignment cap.
+
+BEFORE RECORDING
+
+Open the local Streamlit app and start the recording with it already running.
+Reset the sidebar to defaults, including Planning CPI at 2.5% and no funds
+selected as unavailable. Open docs/locked-changed-input-prediction.md in a
+separate tab. Rehearse raising only Planning CPI to 3.5%. Confirm the header
+above Portfolio comparison shows a 6.50% net hurdle, the Constrained row
+shows “STOP: no feasible mix,” and the warning shows 5.93%. Reset CPI to
+2.5% before recording. Read the ownership statement only after reviewing the
+analysis and deciding you stand behind the recommendation.
+
+1. OPENING AND COMMITTEE ACTION
+
+SHOW — Start on “Retirement Portfolio Review” with the red decision banner
+and the default sidebar in view.
+
+SAY
+“I used OpenAI Codex to help build this app, run checks, and draft the
+committee memo. I reviewed the analysis and take responsibility for the
+decision. This project is for education and does not constitute investment
+advice. My recommendation is to authorize zero dollars in new live funding
+for this process, an allocation range of zero to zero percent. I recommend
+paper monitoring this cycle.”
+
+2. WHY THE BASE CASE ISN’T ENOUGH
+
+SHOW — Point to the Constrained row in “Portfolio comparison.” Then point
+to the 5.50% hurdle in the caption above the table. Scroll to “Required
+stress runs” and point to the VT estimate stress.
+
+SAY
+“Under the base assumptions, the constrained mix is forty percent BIL,
+twenty percent IEF, zero percent LQD, and forty percent VT. Its estimated
+net return is five point seven four percent, and estimated annual volatility
+is seven point zero eight percent. It clears the net hurdle by about
+twenty-four basis points. Cutting the estimated VT return by two percentage
+points lowers the return ceiling to five point one three percent. That stress
+is enough to stop funding.”
+
+3. PREDICTION AND CHANGED-INPUT DEMO
+
+SHOW — Open the saved prediction and point to the planned CPI change and
+predicted outcome. Return to the app.
+
+SAY
+“Before running this changed case, I recorded a prediction. Raising planning
+CPI from two point five to three point five percent would raise the net
+hurdle to six point five percent. I predicted a stop because the best
+estimated return under the other rules was five point nine three percent.”
+
+DO — In “Scenario controls,” change only “Planning CPI (%)” to 3.5.
+Wait for the app to refresh. Show the new hurdle, the Constrained row’s stop,
+and the warning below the comparison tables. Keep the sidebar visible.
+
+SAY
+“The app now shows a six point five percent hurdle and a five point nine
+three percent ceiling. That leaves a gap of about fifty-seven basis points.
+Changing CPI raised the required return while the estimated returns, cost,
+and other rules stayed the same. The result matches the prediction and
+reinforces my zero-dollar recommendation.”
+
+4. WHEN TO REOPEN THE DECISION
+
+SHOW — Scroll to “Archived interest-rate signal.” Point to the 5.29%
+reading and the duration review message.
+
+SAY
+“I would reopen the decision after the desk verifies five-day access to at
+least ninety-five percent of the portfolio, the committee approves the
+benchmark and risk ceiling, and an independently supported forecast clears
+the net hurdle under the required stresses. The archived yield of five
+point two nine percent also crossed the five percent duration review
+threshold. I would complete that review before voting on funding again.”
+
+AFTER RECORDING
+
+Reset Planning CPI to 2.5%. Add the YouTube link and corrected timestamped
+text to video-3-committee-presentation-transcript.md.

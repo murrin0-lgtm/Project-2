@@ -1,0 +1,101 @@
+VIDEO 1 — SYSTEM EVOLUTION
+
+Read the SAY blocks aloud. The SHOW and DO blocks are your recording cues.
+Estimated spoken length is about two minutes, plus time for screen changes.
+Check the assignment time cap before recording.
+
+BEFORE RECORDING
+
+Open the local Streamlit app. In PowerShell, from the EBAY-research workspace:
+
+    Set-Location 'project two'
+    py -3.11 -m streamlit run python/app.py
+
+If Streamlit is installed in a separate project environment, use that
+environment's Python instead. Open the local URL printed by Streamlit.
+Keep an app tab on the default settings and open docs/decision-memo.md in a
+second tab or editor. Scroll the memo to “Base-case comparison” and
+“Stress results and reversal triggers.”
+
+Rehearse the liquidity check once yourself. In the app, select VT under
+“Funds unavailable within five days.” Confirm that Equal weight shows 75.0%
+five-day liquidity, and that the warning reports a 1.34% return ceiling against
+a 5.50% hurdle. Clear VT before recording. Read the attestation and first-person
+review statements below only after you have reviewed and can stand behind them.
+
+1. OPENING AND AI DISCLOSURE
+
+SHOW — The local app at the top of the page, with “Retirement Portfolio Review”
+and the default scenario controls visible.
+
+SAY
+“This is my Project Two retirement portfolio review. I used OpenAI Codex to
+organize the lab evidence, help build the Streamlit app, and write verification
+checks. I reviewed the analysis and take responsibility for the decision.
+This project is for education and does not constitute investment advice.”
+
+2. HOW THE SYSTEM CHANGED
+
+SHOW — Scroll to “Portfolio comparison.” Point to Equal weight, Inverse
+volatility, Constrained, and 60/40 benchmark. Scroll just enough to show the
+rule verdicts below the comparison.
+
+SAY
+“My starting point was the Lab 15 prototype, which compared an edited set of
+inputs with the loaded inputs. I expanded it into a committee review. The app
+compares four portfolios and shows which rules each one passes. In the base
+case, the constrained mix clears the five point five percent net return hurdle
+with an estimated five point seven four percent return.”
+
+SHOW — Point to the Constrained row’s Net annual value. Then scroll to
+“Required stress runs” and pause on the rows marked Stop.
+
+SAY
+“The base case looked promising. Seeing the required stresses changed my
+decision. Several of them leave no mix that meets every rule. That led me to
+recommend zero dollars in live funding and to keep using the system for paper
+monitoring.”
+
+3. ONE AI RESULT I CHECKED MYSELF
+
+SHOW — Return to “Portfolio comparison.” In the sidebar, open “Funds
+unavailable within five days,” select VT, and let the app refresh.
+
+SAY
+“Here is one AI-assisted result I checked myself. An early AI-written test
+expected that making VT unavailable would rule out every mix under the rules
+other than return. I checked that against the mandate. It requires ninety-five
+percent liquidity within five days, which allows up to five percent in VT in
+this scenario.”
+
+SHOW — Point to Equal weight’s 25.0% VT weight and 75.0% Five-day liquidity.
+If a column is off screen, scroll the comparison table horizontally.
+
+SAY
+“Equal weight puts twenty-five percent in VT, so only seventy-five percent
+counts toward five-day liquidity. That fails the liquidity rule.”
+
+SHOW — Point to “STOP: no feasible mix” in the Constrained row, then to the
+warning below the tables. Keep the 5.50% hurdle and 1.34% ceiling visible if
+possible.
+
+SAY
+“The warning says the highest estimated net return under the other rules is
+one point three four percent. Some mixes still satisfy those rules, but even
+the best of them falls short of the five point five percent hurdle. That
+explains why the app stops and why the original test needed to change.”
+
+4. CLOSE
+
+SHOW — Bring the app and its stop warning back into view. End the recording
+after the final sentence, then clear VT in the sidebar.
+
+SAY
+“The biggest change in my thinking was to ask what would make me stop funding
+the strategy. The app now shows the reason for a stop, so I can check the
+decision before committing capital.”
+
+AFTER RECORDING
+
+Use video-1-system-evolution-transcript.md for the YouTube link and the
+corrected timestamped transcript of what you actually said.
