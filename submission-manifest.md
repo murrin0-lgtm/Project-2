@@ -4,14 +4,14 @@ Working manifest based on the assignment directions. Confirm the exact rows and 
 
 | Item | Location |
 | --- | --- |
-| Repository | Pending GitHub link |
-| Decision memo | Pending GitHub link |
-| Validation and AI use | Pending GitHub link |
-| Video 1 | Pending YouTube link |
-| Video 2 | Pending YouTube link |
-| Video 3 | Pending YouTube link |
-| Video 1 transcript | Pending GitHub link |
-| Video 2 transcript | Pending GitHub link |
-| Video 3 transcript | Pending GitHub link |
+| Repository | [Project-2 on GitHub](https://github.com/murrin0-lgtm/Project-2) |
+| Decision memo | [Decision memo](decision-memo.md) |
+| Validation and AI use | [Validation and AI use](validation-and-ai-use.md) |
+| Video 1 | [Watch Video 1 on YouTube](https://www.youtube.com/watch?v=VEdieFQO6I8) |
+| Video 2 | [Watch Video 2 on YouTube](https://www.youtube.com/watch?v=MQvJQ_6Ged4) |
+| Video 3 | [Watch Video 3 on YouTube](https://www.youtube.com/watch?v=vQ1D1IKbQ30) |
+| Video 1 transcript | [System evolution](videos/video-1-system-evolution-transcript.md)  |
+| Video 2 transcript | [Code walkthrough](videos/video-2-code-walkthrough-transcript.md)  |
+| Video 3 transcript | [Committee presentation](videos/video-3-committee-presentation-transcript.md)  |
 
-Brightspace requires the same decision-memo and validation Markdown files attached to the submission. The GitHub link and final attachments must correspond to the same reviewed revision. The three videos and corrected transcripts remain pending. Private Edition A/B copies stay outside the submitted repository.
+Attach the same decision memo and validation Markdown files in Brightspace. The GitHub link and final attachments should correspond to the same reviewed revision.
